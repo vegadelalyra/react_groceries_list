@@ -1,6 +1,7 @@
 # react_groceries_list
 Groceries List designed with React and monolithic styles. Includes a search input
 
+![GROCERIES LIST ON REACT (preview)](preview.png)
 
 
 # Getting Started with Create React App
