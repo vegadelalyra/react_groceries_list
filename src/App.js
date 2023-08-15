@@ -37,7 +37,7 @@ function App() {
         setItems(listItems)
         localStorage.setItem('shoppinglist', JSON.stringify(listItems))
     }
-
+	  
 	return (
 		<div className="App">
 			<Header title="Groceries List" />

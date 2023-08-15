@@ -5,7 +5,14 @@ const ItemList = ({ items, handleCheck, handleDelete }) => {
         <main>
             {/* maps needs to have a key attribute with a value in react */}
             <ul>
-                {items.map(item => LineItem(item, handleCheck, handleDelete))}
+                {items.map(item => ( 
+                    <LineItem
+                        key={item.id}
+                        item={item}
+                        handleCheck={handleCheck}
+                        handleDelete={handleDelete}
+                    />
+                ))}
             </ul>
         </main> 
     )
