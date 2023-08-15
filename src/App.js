@@ -5,7 +5,7 @@ import Content from './Content'
 import Footer from './Footer'
 import { useState } from 'react'
 
-const itemsList = JSON.parse(localStorage.getItem('shoppinglist'))
+const itemsList = JSON.parse(localStorage.getItem('shoppinglist')) || []
 
 function App() {
     const [items, setItems] = useState(itemsList)
