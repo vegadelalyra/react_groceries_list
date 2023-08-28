@@ -4,7 +4,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
 
     return items.length 
     ? ItemList({ items, handleCheck, handleDelete })
-    : ( <main> <p style={{ marginTop: '2rem' }}>Your list is empty.</p> </main> ) 
+    : ( <> <p style={{ marginTop: '2rem' }}>Your list is empty.</p> </> ) 
 }
 
 export default Content
